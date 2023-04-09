@@ -1,0 +1,87 @@
+body{
+    padding: 0;
+    margin: 0;
+    color: #ffffff
+}
+header{
+    font-family: Helvetica;
+    font-size: 20px;
+    color: #ffffff;
+    background-image: url(../img/sobre_mi/647675.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.contenedor {
+    background-size: cover;
+    background-color:black;
+    align-items: center;
+    justify-content: center;
+    font-family: Helvetica;
+    height: 700px;
+    
+}
+
+.Nombre_desc h1{
+    
+    text-align: center;
+   
+}
+.Nombre_desc p{
+    text-align: center;
+}
+.foto_perfil img{
+    margin-left: 150px;
+    margin-top: 60px;
+    height: 45vh;
+    
+    border-radius: 25px;
+
+}
+.contactos{
+    font-family: Helvetica;
+    color: #ffffff;
+    width: 350px;
+    list-style-type: none;
+    align-items: center;    
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 130px;
+    float: left;
+
+    
+}
+.contactos h2{
+    margin-left:80px;
+}
+.contactos img{
+    vertical-align: middle;
+    margin-right: 8px;
+    justify-content:center;
+    align-items: center;
+}
+.contactos a{
+    text-decoration: none;
+    color: #ffff;
+}
+.formacion_A{
+    color: #ffff;
+    width: 600px;
+    height:500px;
+    margin-left: 100vh;
+    position: relative;
+    bottom: 330px;
+
+}
+
+.formacion_A h2{
+    text-align: center;
+}
+.experiencia{
+    margin-top: 65px;
+}
+

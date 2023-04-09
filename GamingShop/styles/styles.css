@@ -1,0 +1,453 @@
+
+
+body{
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+    font-family: Inter;
+}
+
+.contenedor_header{
+    height:auto;
+    width:100%;
+    background-color:#01a014;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+
+.titulo{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    font-family: Oxanium;
+    margin-top:15px;
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+.titulo a{
+    display:flex;
+    align-items:center; 
+}
+
+.titulo img{
+    margin-left: 10px;
+}
+
+.contendedor_titulo{
+    flex-wrap: wrap;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+.form_busqueda{
+    display: flex;
+    align-items: center;
+    margin-top:35px;
+    margin-left: 65px; 
+    width: auto;
+}
+
+.buscador{
+    
+    padding-left:10px;
+    border: 1px solid rgb(136, 0, 255);
+    font-size:17px;
+    border:2px solid black;
+    height:40px;
+    width:580px;
+    border-radius: 10px;
+    
+}
+
+.buscar{
+    margin-left: 5px;
+    background: linear-gradient(to right,#000000,#000000);
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 200px;
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 10px; 
+}
+   
+.buscar:active{
+    transform: scale(0.95);  
+}
+
+.carro_compra{
+    margin-right: 174px;
+    margin-top:-32px;
+    float: right;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:80px;
+    height:25px;
+    font-size:16px;
+    color: rgb(255, 255, 255);    
+}
+
+.categorias nav{
+    display:flex;
+    flex-wrap: wrap;
+    padding:5px;
+    background-color: #000000;
+    font-size:17px;
+    align-items:center;
+    height:50px;
+    margin-bottom:25px;
+    justify-content:space-around;
+}
+
+.categorias a{
+    letter-spacing: 1px;
+    font-weight:bold;
+    color:#000000;
+    border-radius:15px;
+    padding:10px 45px 10px 45px;
+    background-color:#ffffff;
+    -webkit-border-radius:15px;
+    -moz-border-radius:15px;
+    -ms-border-radius:15px;
+    -o-border-radius:15px;
+}
+
+.btn-login{
+    padding:3px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:10px;
+    margin-right: 20px;
+    font-size: 15px;
+    color: #000000;
+    float: right;
+    font-family: "inter";
+    width: 110px;
+    height: 25px;
+    border-radius:10px;
+    background-color: #000000;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+}
+    
+.btn-name_usuario{
+    font-weight:bold;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width: 115px;
+    height: 35px;
+    margin-top:15px;
+    margin-right: 15px;
+    font-size: 17px;
+    float: right;
+    
+}
+
+.btn-name_usuario a{
+    letter-spacing: 0.8px;
+    font-size:16px;
+    color: #ffffff;
+}
+
+.cerrar{
+    padding:3px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:15px;
+    margin-right: 20px;
+    font-size: 15px;
+    color: #ffffff;
+    float: right;
+    font-family: "inter";
+    width: 115px;
+    height: 35px;
+    border-radius:10px;
+    background-color: #000000;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+}
+
+#container-slider{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    display: block;
+    width: 97%;
+    height:245px;
+}
+
+#slider {
+    margin:0;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 210px;
+    min-width: 100%;
+}
+
+#slider li {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100%;
+    height: 85%;
+    display: block;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+    z-index: -1;
+    opacity: 0;
+}
+
+#container-slider .arrowPrev, #container-slider .arrowNext{
+    border: 1px solid red;
+    padding:10px;
+    font-size: 30pt;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    z-index: 2; 
+}
+
+#container-slider .arrowNext {
+    left: initial;
+    right: 25% !important;
+}
+
+.content_slider{
+    
+    box-sizing: border-box;
+    padding: 15px 30px;
+    color: #FFF;
+    width: 100%;
+    height: 200px;
+}
+
+.content_slider img{
+    border-radius:20px;
+    width: 580px;
+    height: 200px;
+    
+}
+
+#slider li .content_slider{
+    background: rgb(255, 255, 255);
+    padding: 10px 125px;
+}
+
+.content_slider{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnSlider{
+    color: #FFF;
+    font-size: 15pt;
+    font-family: 'arial';
+    letter-spacing: 1px;
+    padding: 10px 50px;
+    border: 1px solid #CCC;
+    background: rgba(37, 40, 80, 0.55);
+    border-radius: 31px;
+    text-decoration: none;
+    transition: .5s all;
+}
+
+.btnSlider:hover{
+    background: #111;
+    border: 1px solid #111;
+}
+
+.listslider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    list-style: none;
+    
+}
+
+.listslider li {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.listslider li a {
+    background: rgb(114, 114, 114);
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.item-select-slid {
+    background: rgb(0, 0, 0)  !important;
+}
+
+@media screen and (max-width: 460px){
+#container-slider .arrowPrev, #container-slider .arrowNext{
+    font-size: 20pt;
+}
+
+#container-slider .arrowPrev{
+    left: 15px;
+}
+
+#container-slider .arrowNext{
+    right: 15px !important;
+}
+
+#slider{
+    height: 400px;
+    min-height: 400px;
+}
+
+#slider li .content_slider{
+    padding: 10px 35px;
+}
+
+.btnSlider{
+    padding: 10px 30px;
+    font-size: 10pt;
+}}
+
+.hr_banners{
+    color: #000000;
+    margin-top: 20px;
+}
+
+.titulo_cards{
+    margin-top: 40px;
+    font-size: 30px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+ /* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border-radius: 10px;
+    border: 0px none #000000;
+}
+
+.contenedor_cards{
+    margin-top: 15px;
+    height: 400px;
+    max-width: 1500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.contenedor_cards a{
+    color: #000000;
+}
+
+.cards_productos_img{
+    width: 210px;
+    height: 300px;
+    border-radius: 15px;
+    background: #e0e0e0;
+    overflow: hidden;
+    box-shadow: 15px 15px 30px #bebebe,-15px -15px 30px #ffffff;
+}
+
+.contenedor_cards .cards_productos_img img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.info_card h2{ 
+    text-align: center;
+}
+
+.info_card p{
+    text-align: center;
+    font-size:18px;
+}
+
+
+.footer{
+    color:#ffffff;
+    margin-top:150px;
+    width: 100%;
+    height: 35%;
+    background-color:#000000;
+}
+
+.logo_footer{
+    padding-top:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family: Oxanium;
+    font-size: 30px;
+}
+
+.logo_footer img{
+    margin-left: 10px;
+}
+
+footer h3{
+    right:10px;
+    font-weight: normal;
+    display: flex;
+    padding-left: 12%;
+    font-size:20px;
+}
+
+.info_footer li{
+    padding:5px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    list-style-type: none;
+    margin-left: 100px;
+}
+
+.info_footer img{
+    padding-right: 5px;
+    vertical-align: middle;
+}

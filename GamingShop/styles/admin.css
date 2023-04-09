@@ -1,0 +1,178 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+a{
+    
+    color:rgb(255, 255, 255);
+}
+
+.logo_admin{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family: Oxanium;
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.logo_admin img{
+    margin-left: 10px;
+}
+
+.btn-inicio_admin .home{
+    justify-content:center;
+    align-items:center;
+    margin-top:15px;
+    margin-left: 20px;
+    font-size: 15px;
+    color: #ffffff;
+    font-family: "inter";
+    width: 115px;
+    height: 35px;
+    border-radius:10px;
+    background-color: #000000;
+    
+}
+
+.crud_banners{
+    padding:10px;
+}
+
+.btn-banners {
+    margin-bottom: 10px;
+    color:rgb(255, 255, 255);
+    padding: 10px 25px;
+    border-radius: 50px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    transition: all .3s ease;
+}
+
+.btn-banners:hover {
+    letter-spacing: 1.5px;
+    background-color: rgb(0, 0, 0);
+    color: hsl(0, 0%, 100%);
+    box-shadow: #01a014 1px 1px 1px 1px;
+}
+
+.btn-banners:active {
+    letter-spacing: 1.5px;
+    background-color: rgb(0, 0, 0);
+    color: hsl(0, 0%, 100%);
+    box-shadow: #01a014 0px 0px 0px 0px;
+    transform: translateY(3px);
+}
+
+.table_banners th{
+    width: 100%;
+    font-size: 17px;
+    text-align: center;
+    width:800px;
+    padding: 5px; 
+    border: 1px solid rgb(0, 0, 0);  
+}
+.table_banners a{
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+}
+
+.table_banners img{
+    padding: 5px;
+    
+
+}
+
+.table_banners p{
+    font-size: 18px;
+    display:flex;
+    justify-content: center; 
+    
+}
+
+.table_banners{
+    border: 1px solid 1px;
+    
+}
+
+.btn-banners_table {
+    
+    margin-bottom: 10px;
+    color:rgb(255, 255, 255);
+    padding: 10px 25px;
+    border-radius: 50px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    transition: all .3s ease;
+}
+
+.btn-banners_table:hover {
+    letter-spacing: 1.5px;
+    background-color: rgb(0, 0, 0);
+    color: hsl(0, 0%, 100%);
+    box-shadow: #01a014 1px 1px 1px 1px;
+}
+
+.btn-banners_table:active {
+    letter-spacing: 1.5px;
+    background-color: rgb(0, 0, 0);
+    color: hsl(0, 0%, 100%);
+    box-shadow: #01a014 0px 0px 0px 0px;
+    transform: translateY(3px);
+}
+/* Apartir de aqui es para diseñar el formulario para insertar banners */
+
+.container_form-banners label{
+    padding:10px;
+}
+
+.container_form-banners{
+    margin:10px;
+}
+
+.container_table-banners table td{
+    border:1px solid black;
+}
+
+.container_form-banners input{
+    width:30%;
+    height:35px;
+}
+
+.btn-subir-banners {
+    margin-bottom: 10px;
+    color:rgb(255, 255, 255);
+    padding: 10px 25px;
+    border-radius: 50px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    transition: all .3s ease;
+}
+
+.btn-subir-banners:hover {
+    letter-spacing: 1.5px;
+    background-color: rgb(0, 0, 0);
+    color: hsl(0, 0%, 100%);
+    box-shadow: #01a014 1px 1px 1px 1px;
+}
+
+.btn-subir-banners:active {
+    letter-spacing: 1.5px;
+    background-color: rgb(0, 0, 0);
+    color: hsl(0, 0%, 100%);
+    box-shadow: #01a014 0px 0px 0px 0px;
+    transform: translateY(3px);
+}
+
